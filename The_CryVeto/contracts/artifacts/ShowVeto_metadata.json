@@ -1,0 +1,138 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "VetoCase",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "Vetotitle",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "Vetohosts",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "ID",
+						"type": "bytes32"
+					}
+				],
+				"name": "CreatVeto",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ReadVeto",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "say",
+						"type": "bytes32"
+					}
+				],
+				"name": "Vetofeedbark",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "value",
+						"type": "bool"
+					}
+				],
+				"name": "onVeto",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "showveto",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"the New/contracts/Show.sol": "ShowVeto"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"the New/contracts/Show.sol": {
+			"keccak256": "0x9714045c0e5d7cddce2793d951744d568f70273f5376658c96951a688a90dfda",
+			"license": "SEE LICENSE IN LICENSE",
+			"urls": [
+				"bzz-raw://a2e9ce00f7146294b746db77afa5f0f15a2dd9f3a56072081eddb03fb2b65e7d",
+				"dweb:/ipfs/QmYMv9xQQWDD9tkjXrm2FNMSbMiZJSfMyrSi24rdHuZTja"
+			]
+		},
+		"the New/contracts/veto.sol": {
+			"keccak256": "0xd472b3796231c38b44da47bc1878d0cbd9d4c94a580ae01e4408627ed14bb0d1",
+			"license": "SEE LICENSE IN LICENSE",
+			"urls": [
+				"bzz-raw://d85806fdc229ae53d9dbeed4f031a03ec55a4c70e1ffb1757468c227397f243f",
+				"dweb:/ipfs/QmPjNmNEbDxBtb6Z5RuDovJ4BjRQgzGKvuadKHYHZfTiCa"
+			]
+		},
+		"the New/contracts/vetoCase.sol": {
+			"keccak256": "0x862101095b4a183f5ff48aeaae44a0cef5e9cf89b9a4615aa163c0bc79802b36",
+			"license": "SEE LICENSE IN LICENSE",
+			"urls": [
+				"bzz-raw://e8624e58608257ed184aa23a739ad9cf708846475ed6a81d0be453907429c9ff",
+				"dweb:/ipfs/QmdDft8maP4myPV4Cts7meR1VRQAN7oRtLhXHAFVTvmbTR"
+			]
+		},
+		"the New/contracts/vetoResultAndFeedback.sol": {
+			"keccak256": "0x1195f5c1243e55f5283b8c723c6a64925a8562f48f86bdd917f33a7f98a93774",
+			"license": "SEE LICENSE IN LICENSE",
+			"urls": [
+				"bzz-raw://0a41cb16a2eb13b7ced01afb670c71bfbf1fe02a500ef3a20d43bbd542f9b2ec",
+				"dweb:/ipfs/QmZoBDcLwv8EnpwXT5sKtzv5YZbvhVKAXNWAHUhqD1wXSS"
+			]
+		}
+	},
+	"version": 1
+}

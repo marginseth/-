@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "GetValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "TrueVote",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "FalseVote",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "hosts",
+						"type": "address"
+					}
+				],
+				"name": "VetoEnd",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "value",
+						"type": "bool"
+					}
+				],
+				"name": "VoteActor",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "ID",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "Hosts",
+						"type": "address"
+					}
+				],
+				"name": "setID",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"the New/contracts/veto.sol": "TheVote"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"the New/contracts/veto.sol": {
+			"keccak256": "0x60253f2c5ef5b93f11747674d022b0cd88c6fc6a004b14482c8ea260554525a3",
+			"license": "SEE LICENSE IN LICENSE",
+			"urls": [
+				"bzz-raw://cc8750e505ef3950061f1215fb99623bbbe09e789b1b8e3dcac3d464a97e8778",
+				"dweb:/ipfs/Qmf7r3dFJFBrdW2UHRxjV4YbVLCWJqEhWUsJmN5KFLhr1b"
+			]
+		}
+	},
+	"version": 1
+}

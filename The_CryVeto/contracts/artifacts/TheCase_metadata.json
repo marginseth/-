@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getVeto",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "VetoCase",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "Vetotitle",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "Vetohosts",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "ID",
+						"type": "bytes32"
+					}
+				],
+				"name": "setVeto",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"the New/contracts/vetoCase.sol": "TheCase"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"the New/contracts/vetoCase.sol": {
+			"keccak256": "0x862101095b4a183f5ff48aeaae44a0cef5e9cf89b9a4615aa163c0bc79802b36",
+			"license": "SEE LICENSE IN LICENSE",
+			"urls": [
+				"bzz-raw://e8624e58608257ed184aa23a739ad9cf708846475ed6a81d0be453907429c9ff",
+				"dweb:/ipfs/QmdDft8maP4myPV4Cts7meR1VRQAN7oRtLhXHAFVTvmbTR"
+			]
+		}
+	},
+	"version": 1
+}
